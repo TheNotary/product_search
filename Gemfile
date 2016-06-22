@@ -12,9 +12,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'figaro'
 # gem 'puma'
 
+gem "semantics3"
+
 
 gem "chartkick"
-gem "faye"
+# gem "faye"
 
 
 gem 'factory_girl_rails'

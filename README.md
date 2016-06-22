@@ -5,6 +5,9 @@ With product search, a user can enter a search string and the app will lookup th
 Details:
 
   - The results are shown in a table.
+    - The Price
+    - 
+    - The time when the data was queried
   - The results from the query are cache by SQL
   - The app is written in a TDD pattern where possible
   - The app has an administrative interface for...
