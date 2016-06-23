@@ -7,7 +7,7 @@
 -->
 <div>
   <label>search box</label>
-  <input id="query" type=text>
+  <input id="query" type=text onkeypress="if (event.code == 'Enter') search_onClick();">
 
   <button onclick="search_onClick();">Search</button>
 </div>
