@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "responds to admin" do
+    expect(User.new).to respond_to(:admin)
+  end
 end

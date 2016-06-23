@@ -11,7 +11,12 @@
     <h3>Navigation</h3>
     <ul>
       <li><a href="/">Search</a></li>
-      <li><a href="/admin">Admin</a></li>
+
+      <% if current_user.try(:admin?) %>
+        <li><a href="/admin">Admin</a></li>
+      <% else %>
+        <li><a href="/users/sign_in">Signin</a></li>
+      <% end %>
     </ul>
   </nav>
 
