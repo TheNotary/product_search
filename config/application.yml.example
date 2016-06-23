@@ -6,6 +6,13 @@ semantics_api_key: "SEMDLFJI432DJKS..."
 semantics_secret: "MGJxNz..."
 
 
+#########################
+# Generic Rails Configs #
+#########################
+
+SECRET_KEY_BASE: 'run `rake secret`'
+
+
 ###########
 # Testing #
 ###########
