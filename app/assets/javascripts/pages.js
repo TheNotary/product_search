@@ -37,3 +37,15 @@ function reportCorrection(resp){
 
   $('#display').html(markupString);
 }
+
+function warmCache() {
+  var url = "/semantics_api/warm_cache";
+  var data = {  };
+
+  $.ajax({
+    type: "POST",
+    url: url,
+    data: data,
+    success: reportCorrection,
+  });
+}
