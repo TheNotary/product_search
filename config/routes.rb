@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :search_caches
   get 'pages/home'
   root to: 'pages#home'
 
