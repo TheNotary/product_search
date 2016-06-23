@@ -10,6 +10,10 @@ Details:
     - The time when the data was queried
   - The results from the query are cache by SQL
   - The app is written in a TDD pattern where possible
+
+
+
+Bonus features not conducted into:  
   - The app has an administrative interface for...
     - define custom search terms
     - pre-fetch/ cache the API calls manually
