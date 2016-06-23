@@ -1,10 +1,11 @@
 class Product < ActiveRecord::Base
 
   def self.search(query)
-    query = query.downcase
-    
+    product = self.find_by(query: query.downcase)
+    minutes_before_expiration = ENV['minutes_before_cached_queries_expire'].to_i
+
     # if we have a 'valid' cache, use it
-    if product = self.find_by(query: query)
+    if product && product.updated_at > minutes_before_expiration.minutes.ago
       products_json_hash = product.response
     else
       products_json_hash = execute_search_against_semantic(query)
