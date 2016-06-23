@@ -5,6 +5,7 @@
 semantics_api_key: "SEMDLFJI432DJKS..."
 semantics_secret: "MGJxNz..."
 minutes_before_cached_queries_expire: "20"
+precachable_queries: "Samsung, Galaxy, iPad, iPhone"
 
 
 #########################
@@ -14,6 +15,7 @@ minutes_before_cached_queries_expire: "20"
 SECRET_KEY_BASE: 'run `rake secret`'
 admin_email: "admin@example.com"
 admin_password: "changeme123"
+
 
 ###########
 # Testing #
