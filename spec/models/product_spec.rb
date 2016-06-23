@@ -1,8 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Product, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
-
-
-  it "should have a search function that responds with json"
+  it "should have a search function that responds with json" do
+    expect(Product.search("Samsung Galaxy").class).to be String
+  end
 end

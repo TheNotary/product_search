@@ -1,7 +1,10 @@
 require 'rails_helper'
 
-
 feature 'Home page' do
+
+  before :each do
+    stub_search_response
+  end
 
   # Scenario: Visit the home page
   #   Given I am a visitor
