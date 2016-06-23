@@ -12,7 +12,8 @@ minutes_before_cached_queries_expire: "20"
 #########################
 
 SECRET_KEY_BASE: 'run `rake secret`'
-
+admin_email: "admin@example.com"
+admin_password: "changeme123"
 
 ###########
 # Testing #

@@ -9,6 +9,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'uglifier'
 
 gem 'figaro'
+gem 'devise'
 gem 'puma'
 
 gem "semantics3"
