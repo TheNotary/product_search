@@ -16,7 +16,8 @@ gem "semantics3"
 
 
 gem "chartkick"
-# gem "faye"
+#gem "mustache" # or "handlebars"
+# gem "stache"
 
 
 gem 'factory_girl_rails'

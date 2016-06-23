@@ -52,12 +52,6 @@ RSpec.describe SearchCachesController, type: :controller do
     end
   end
 
-  describe "GET #new" do
-    it "assigns a new search_cache as @search_cache" do
-      get :new, {}, valid_session
-      expect(assigns(:search_cache)).to be_a_new(SearchCache)
-    end
-  end
 
   describe "GET #edit" do
     it "assigns the requested search_cache as @search_cache" do

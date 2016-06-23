@@ -4,3 +4,10 @@
 
 semantics_api_key: "SEMDLFJI432DJKS..."
 semantics_secret: "MGJxNz..."
+
+
+###########
+# Testing #
+###########
+
+disable_querying_third_parties: "true"

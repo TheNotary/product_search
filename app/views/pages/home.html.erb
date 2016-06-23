@@ -1,2 +1,16 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Normal user search page</h1>
+<p>Use this page to perform a search</p>
+
+<!--
+  I didn't do anything fancy here with rails forms since we're using a
+  3rd party... please send me some feedback on this if you know a better aproach =/
+-->
+<div>
+  <label>search box</label>
+  <input id="query" type=text>
+
+  <button onclick="search_onClick();">Search</button>
+</div>
+
+
+<div id="display"></div>
