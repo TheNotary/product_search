@@ -7,9 +7,8 @@ class SemanticsApiController < ApplicationController
 
   def warm_cache
     admins_only
-    # TODO: warm the cache based on some data somewhere
 
-    
+    WarmCacheJob.perform_later()
 
     render text: "*OK*"
   end
